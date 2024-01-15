@@ -1,0 +1,145 @@
+@media(max-width:425px){
+    .nav2{
+        display: none;
+    }
+    .nav img{
+        width: 40%;
+        padding: 3vw;
+    }
+    
+    .left h3{
+        width: 60%;
+        font-size: 4vw;
+        line-height: 4vw;
+        /* background-color: yellow; */
+    }
+    .right{
+        /* height: 100%; */
+        /* background-color: red; */
+        bottom: 60%;
+        position: absolute;
+        right:2%;
+    }
+    .right h1{
+        font-size: 15vw;
+        line-height: 15vw;
+    }
+    .moving_text{
+        padding-top: 10vw;
+    }
+    .moving_text h1{
+        font-size: 25vw;
+    }
+    .page2_bottom h1{
+        width: 80%;
+        font-size: 7vw;
+        line-height: 7vw;
+        /* background-color: yellow; */
+    }
+    .bottom_part2{
+        width: 40%;
+    }
+    .bottom_part2 p{
+        font-size: 2vw;
+        line-height: 2vw;
+        text-transform: capitalize;
+    }
+    .anim {
+        width: 50vw;
+        height: 50vw;
+    }
+    .page3 .elm h2{
+        font-size: 6vw;
+    }
+    .fixed_img{
+        height: 40vw;
+        width: 35vw;
+    }
+    .swiper{
+        padding-top:10vw !important ;
+    }
+    .swiper-slide{
+        width: 60% !important;
+        height: 50vw !important;
+    }
+    .swiper-slide p{
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .email{
+        font-size: 3vw;
+    }
+    .last{
+        flex-direction: column;
+        gap: 5vw;
+        margin-top: 5dvh;
+    }
+    footer::after{
+        width: 30vw;
+        height: 30vw;
+
+    }
+    footer::before{
+        width: 85vw;
+        height: 30vw;
+
+    }
+    .circle{
+        margin-bottom: 5vw;
+        height: 8vw;
+        width: 8vw;
+    }
+    .nav h3{
+        color: #000;
+        display: block;
+        font-size:5vw;
+        font-weight: 500;
+        border: 1px solid gray;
+        padding: 1vw 2vw;
+        border-radius: 5vw;
+        position: relative;
+    }
+    .page1 video{
+        border-radius: 4vw;
+        height: 70vh;
+        position: relative;
+        object-fit: cover;
+        object-position: center;
+    }
+    .full_scr{
+        display: block;
+    }
+    .hero_shape{
+        top: 45%;
+    }
+    .hero_1{
+        width: 50vw;
+        height: 50vw;
+    }
+    .hero_2{
+        width: 50vw;
+        height: 50vw;
+    }
+    .hero_3{
+        width: 50vw;
+        height: 50vw;
+    }
+}
+@media(max-width:375px){
+
+    .right{
+        top:18%;
+    }
+    .page1 video{
+
+        border-radius:10px;        
+    }
+    .moving_text{
+        padding-top: 10vw;
+    }
+    .circle{
+        margin-bottom: 5vw;
+        height: 8vw;
+        width: 8vw;
+    }
+}
